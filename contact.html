@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.o">
+        <title>University Website Design - Glen Miracle</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+    </head>
+    <body> 
+
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="images/logo.png" alt=""></a>
+
+                <!-- navigation links -->
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="">COURSE</a></li>
+                        <li><a href="">BLOG</a></li>
+                        <li><a href="">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+
+            </nav>
+
+            <h1>Contact Us</h1>
+
+        </section>
+
+        <!-- contact us  -->
+
+        <section class="location">
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d240201.
+            57045144058!2d-71.12858015563093!3d42.36245308396045!2m3!1f0!2f0!3f0!3m2!1i1024!
+            2i768!4f13.1!3m3!1m2!1s0x89e3652d0d3d311b%3A0x787cbf240162e8a0!2sBoston%2C%20MA%2C%
+            20USA!5e0!3m2!1sen!2srw!4v1695130112337!5m2!1sen!2srw" width="600" height="450" 
+            style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-
+            downgrade">
+        </iframe>
+
+        </section>
+
+        <section class="contact-us">
+
+            <div class="row">
+                <div class="contact-col">
+
+                    <div>
+                        <i class="fa-solid fa-house"></i>
+                        <span>
+                            <h5>XYZ Road, ABC Building</h5>
+                            <p>Kigali, Rwanda, KGL</p>
+                        </span>
+                    </div>
+
+                    <div>
+                        <i class="fa-solid fa-phone"></i>
+                        <span>
+                            <h5>+123 456 789</h5>
+                            <p>Monday to Saturday, 10AM to 6PM</p>
+                        </span>
+                    </div>
+                    
+                    <div>
+                        <i class="fa-solid fa-envelope"></i></i>
+                        <span>
+                            <h5>info@glenmiracle.com</h5>
+                            <p>Email us your query</p>
+                        </span>
+                    </div>
+
+                </div>
+
+                <div class="contact-col">
+                    <form action="">
+                        <input type="text" placeholder="Enter your name" required>
+                        <input type="email" placeholder="Enter your email address" required>
+                        <input type="text" placeholder="Enter your subject" required>
+                        <textarea rows="8" placeholder="Message" required></textarea>
+                        <button type="submit" class="hero-btn red-btn" >Send Message</button>
+                    </form>
+                </div>
+            </div>
+
+        </section>
+
+        
+
+       
+
+
+        <!-- fotter -->
+        <section class="footer">
+            <h4>About us</h4>
+            <p>
+                At our institution, we're committed to nurturing knowledge, innovation, <br> 
+                and personal development. With dedicated faculty and cutting-edge resources, 
+                we prepare students to thrive in <br> today's dynamic world. 
+            </p>
+            <div class="icons">
+                <i class="fa-brands fa-square-instagram"></i>
+                <i class="fa-brands fa-square-facebook"></i>
+                <i class="fa-brands fa-square-twitter"></i>
+                <i class="fa-brands fa-linkedin"></i>
+            </div>
+
+            <p>Made with <i class="fa-regular fa-face-grin-hearts"></i> by Glen Miracle</p>
+
+        </section>
+
+
+
+
+
+
+    
+    <!-- javascript for toggle menu  -->
+    <script>
+
+        var navlinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu(){
+            navlinks.style.right = "-202px";
+        }
+
+    </script>
+
+    </body>
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.o">
+        <title>University Website Design - Glen Miracle</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+    </head>
+    <body> 
+
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="images/logo.png" alt=""></a>
+
+                <!-- navigation links -->
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="">COURSE</a></li>
+                        <li><a href="">BLOG</a></li>
+                        <li><a href="">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+
+            </nav>
+
+            <h1>About Us</h1>
+
+        </section>
+
+        <section class="about-us">
+
+            <div class="row">
+                <div class="about-col">
+                    <h1>We are Africa's Biggest University</h1>
+                    <p>
+                        As the largest and most advanced university in Africa, 
+                        we take immense pride in our commitment to providing 
+                        exceptional educational opportunities. Our institution 
+                        stands at the forefront of academic excellence, offering a 
+                        diverse range of programs and resources designed to empower 
+                        students for success. 
+                    </p>
+                    <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+                </div>
+                <div class="about-col">
+                    <img src="images/about.jpg">
+                </div>
+            </div>
+
+        </section>
+
+       
+
+
+        <!-- fotter -->
+        <section class="footer">
+            <h4>About us</h4>
+            <p>
+                At our institution, we're committed to nurturing knowledge, innovation, <br> 
+                and personal development. With dedicated faculty and cutting-edge resources, 
+                we prepare students to thrive in <br> today's dynamic world. 
+            </p>
+            <div class="icons">
+                <i class="fa-brands fa-square-instagram"></i>
+                <i class="fa-brands fa-square-facebook"></i>
+                <i class="fa-brands fa-square-twitter"></i>
+                <i class="fa-brands fa-linkedin"></i>
+            </div>
+
+            <p>Made with <i class="fa-regular fa-face-grin-hearts"></i> by Glen Miracle</p>
+
+        </section>
+
+
+
+
+
+
+    
+    <!-- javascript for toggle menu  -->
+    <script>
+
+        var navlinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu(){
+            navlinks.style.right = "-202px";
+        }
+
+    </script>
+
+    </body>
+</html>

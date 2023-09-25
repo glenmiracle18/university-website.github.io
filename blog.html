@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.o">
+        <title>University Website Design - Glen Miracle</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+    </head>
+    <body> 
+
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="images/logo.png" alt=""></a>
+
+                <!-- navigation links -->
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="">COURSE</a></li>
+                        <li><a href="">BLOG</a></li>
+                        <li><a href="">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+
+            </nav>
+
+            <h1>Our Certificaes and Online Programs For 2023</h1>
+
+        </section>
+
+        <!-- blog post page content -->
+        <section class="blog-content">
+
+            <div class="row">
+
+                <div class="blog-left">
+                    <img src="images/certificate.jpg">
+                    <h2>Unlocking New Horizons: Discover Our Certificate and Online Programs</h2>
+                    <p>
+                        In today's fast-paced world, the quest for knowledge and skill development 
+                        is a journey without boundaries. Whether you're a recent graduate seeking to 
+                        enhance your qualifications or a working professional looking to upskill, our 
+                        certificate and online programs offer a gateway to endless opportunities.
+                    </p>
+                    <br>
+                    <p>
+                        Our certificate programs cater to a wide spectrum of interests and career goals. 
+                        From data analytics and digital marketing to project management and cybersecurity, 
+                        we've designed our certificates to align with the demands of the ever-evolving job market. 
+                        These programs provide you with specialized knowledge and skills that are highly sought after 
+                        by employers in today's competitive landscape.
+                    </p>
+                    <br>
+                    <h3>
+                        Interactive Learning Experience
+                    </h3>
+                    <p>
+                        Online doesn't mean isolated. Our virtual classrooms are vibrant spaces where you can engage 
+                        with experienced instructors and collaborate with fellow learners from around the world. 
+                        Through discussion forums, live webinars, and interactive assignments, you'll have the 
+                        opportunity to build a global network while expanding your knowledge.
+                    </p>
+                    <br>
+                    <p>
+                        Earning a certificate from our institution not only signifies your dedication to 
+                        continuous learning but also provides you with a valuable credential recognized by 
+                        industry leaders. These certificates can be a stepping stone to new career 
+                        opportunities or a means to advance in your current role.
+                    </p>
+                    <br>
+
+                    <h3>
+                        Future-Ready Education
+                    </h3>
+
+                    <p>
+                        The world is changing, and so are the skills needed to succeed in it. Our certificate 
+                        and online programs are designed to keep you ahead of the curve. We regularly update our 
+                        curriculum to reflect the latest industry trends and technological advancements, ensuring 
+                        that you're equipped with the skills demanded by the job market.
+                    </p>
+                    <br>
+                    <p>
+                        Whether you're embarking on a new career path, seeking to enhance your existing skills, 
+                        or simply hungry for knowledge, our certificate and online programs provide you with the 
+                        tools you need to achieve your goals. Join our community of lifelong learners who are 
+                        passionate about personal and professional growth.
+                    </p>
+                        <br> 
+                    <p>
+                        Discover the world of opportunities that await you through our certificate and online 
+                        programs. Enroll today and embark on a journey of learning, innovation, and transformation. 
+                        Your future starts here
+                    </p>
+
+                    <div class="comment-box">
+
+                        <h3>
+                            Leave a comment
+                        </h3>
+
+                        <form class="comment-form">
+                            <input type="text" placeholder="Enter Name">
+                            <input type="email" placeholder="Enter Email">
+                            <textarea rows="5" placeholder="Your Comment"></textarea>
+                            <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+
+                        </form>
+
+                    </div>
+
+                </div>
+
+                <div class="blog-right">
+                    <h3>Post Categories</h3>
+
+                    <div>
+                        <span> Busines Analytics</span>
+                        <span>21</span>
+                    </div>
+
+                    <div>
+                        <span>Machine Learning</span>
+                        <span>22</span>
+                    </div>
+
+                    <div>
+                        <span>Web development</span>
+                        <span>30</span>
+                    </div>
+
+                    <div>
+                        <span>Medicine</span>
+                        <span>35</span>
+                    </div>
+
+                    <div>
+                        <span>Automobile Engineering</span>
+                        <span>26</span>
+                    </div>
+                
+                </div>
+            </div>
+        </section>
+
+        
+
+
+    
+
+        <!-- fotter -->
+        <section class="footer">
+            <h4>About us</h4>
+            <p>
+                At our institution, we're committed to nurturing knowledge, innovation, <br> 
+                and personal development. With dedicated faculty and cutting-edge resources, 
+                we prepare students to thrive in <br> today's dynamic world. 
+            </p>
+            <div class="icons">
+                <i class="fa-brands fa-square-instagram"></i>
+                <i class="fa-brands fa-square-facebook"></i>
+                <i class="fa-brands fa-square-twitter"></i>
+                <i class="fa-brands fa-linkedin"></i>
+            </div>
+
+            <p>Made with <i class="fa-regular fa-face-grin-hearts"></i> by Glen Miracle</p>
+
+        </section>
+
+
+
+
+
+
+    
+    <!-- javascript for toggle menu  -->
+    <script>
+
+        var navlinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu(){
+            navlinks.style.right = "-202px";
+        }
+
+    </script>
+
+    </body>
+</html>
